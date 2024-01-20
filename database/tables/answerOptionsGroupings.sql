@@ -1,4 +1,5 @@
 CREATE TABLE [dbo].[AnswerOptionsGroupings](
-	 [answerOptionGroupingId]  [INT]  IDENTITY(1,1) NOT NULL PRIMARY KEY
-    ,[answerOptionId]          [INT]  NOT NULL 
+	 [answerOptionGroupingId]  [INT]  NOT NULL
+    ,[answerOptionId]          [INT]  NOT NULL FOREIGN KEY REFERENCES AnswerOptions(answerOptionId)
+    --TODO : make composite primary key
 )
