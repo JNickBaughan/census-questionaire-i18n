@@ -2,7 +2,9 @@ SET IDENTITY_INSERT [dbo].[AnswerTypes] ON;
 
 MERGE INTO [dbo].[AnswerTypes] AS TARGET
 USING (VALUES
-     (1,'Multiple Choice')
+     (1,'Multiple Choice - Select One')
+    ,(2,'Multiple Choice - Mark All That Apply')
+    ,(3,'Free Form')
 )
 AS SOURCE ([answerTypeId], [answerTypeDescription])
 ON TARGET.[answerTypeId] = Source.[answerTypeId]
