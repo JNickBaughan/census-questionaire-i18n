@@ -12,6 +12,9 @@ USING (VALUES
     ,(7,'Owned by you or someone in this household free and clear (without a mortgage or loan)?', 0)
     ,(8,'Rented?', 0)
     ,(9,'Occupied without payment or rent?', 0)
+
+    ,(10,'Male', 0)
+    ,(11,'Female', 0)
     
 )
 AS SOURCE ([answerOptionId],[answerOptionText],[allowsComments])

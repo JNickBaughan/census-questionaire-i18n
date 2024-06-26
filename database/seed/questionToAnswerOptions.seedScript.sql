@@ -12,7 +12,9 @@ USING (VALUES
     ,(7,2,2)
     ,(8,2,3)
     ,(9,2,4)
-    ,(10,2,5)
+
+    ,(10,6,1)
+    ,(11,6,2)
 )
 AS SOURCE ([answerOptionId],[questionId],[order])
 ON TARGET.[questionId] = Source.[questionId] 
