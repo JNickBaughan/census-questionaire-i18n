@@ -15,6 +15,28 @@ USING (VALUES
 
     ,(10,'Male', 0)
     ,(11,'Female', 0)
+
+    ,(12,'No, not of Hispanic, Latino, or Spanish origin', 0)
+    ,(13,'Yes, Mexican, Mexican Am., Chicano', 0)
+    ,(14,'Yes, Puerto Rican', 0)
+    ,(15,'Yes, Cuban', 0)
+    ,(16,'Yes, another Hispanic, Latino, or Spanish origin -Print, for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc.', 1)
+
+    ,(17,'White - Print, for example, German, Irish, English, Italian, Lebanese, Egyptian, etc.', 1)
+    ,(18,'Black or African Am. - Print, for example, African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc.', 1)
+    ,(19,'American Indian or Alaska Native - Print name of enrolled or principal tribe(s), for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.', 1)
+    ,(20,'Chinese', 0)
+    ,(21,'Vietnamese', 0)
+    ,(22,'Native Hawaiian', 0)
+    ,(23,'Filipino', 0)
+    ,(24,'Korean', 0)
+    ,(25,'Samoan', 0)
+    ,(26,'Asian Indian', 0)
+    ,(27,'Japanese', 0)
+    ,(28,'Chamorro', 0)
+    ,(29,'Other Asian - Print, for example, Pakistani, Cambodian, Hmong, etc.', 1)
+    ,(30,'Other Pacific Islander - Print, for example Tongan, Fijian, Marshallese, etc.', 1)
+    ,(31,'Some other race - Print race or origin.', 1)
     
 )
 AS SOURCE ([answerOptionId],[answerOptionText],[allowsComments])
