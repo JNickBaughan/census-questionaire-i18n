@@ -8,3 +8,16 @@ body {
     background:#d8eee7ec;
     font-family: Abel, Arial, Verdana, sans-serif;
 }
+
+.main-container {
+  max-width: 50em;
+  margin: auto;
+  padding: 20px 10px;
+
+  & .info-card {
+    margin: 5px 0;
+    padding: 10px 5px;
+    border: blue solid 1px;
+    background-color: rgb(66, 212, 212);
+  }
+}
