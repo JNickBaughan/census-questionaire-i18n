@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background:#d8eee7ec;
+    font-family: Abel, Arial, Verdana, sans-serif;
+}
